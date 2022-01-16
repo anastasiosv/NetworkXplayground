@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from collections import Counter
 
-file = '/Users/anastasiosvanis/Documents/EAP/OneDrive - Ελληνικό Ανοικτό Πανεπιστήμιο/ΒΠ51/3η Εργασια/ppi_matrix.xlsx'
-file2 = '/Users/anastasiosvanis/Documents/EAP/OneDrive - Ελληνικό Ανοικτό Πανεπιστήμιο/ΒΠ51/3η Εργασια/ppi_names.xlsx'
+file = './ppi_matrix.xlsx'
+file2 = './ppi_names.xlsx'
 
 # read excel file to generate labels
 df_names = pd.read_excel(
